@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+body {
+    background: linear-gradient(rgb(4, 4, 87), rgb(0, 225, 255)) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@font-face {
+    src: url('fonts/Valorant-Font.woff');
+    font-family: 'Valorant';
+}
+
+@font-face {
+    src: url('fonts/monofonto.woff');
+    font-family: 'monofonto';
+}
+
+#selected {
+    color: #fff;
+}
+
+.profile {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+}
+
+#navegacao {
+    background: rgb(4, 4, 87);
+}
+
+#logo {
+    font-size: 2em;
+    font-family: 'Valorant';
+    margin-top: 5px;
+}
+
+#logo-contato {
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Valorant';
+    margin-top: 10px;
+}
+
+#logo-contato:hover {
+    text-decoration: none;
+}
+
+#bordao {
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 100px;
+    font-family: 'monofonto';
+}
+
+.imagec img {
+    width: 100%;
+    height: 600px;
+    max-height: 600px;
+}
+
+.carousel-caption h3 {
+    display: inline;
+    border-radius: 4px;
+}
+
+.imgcard {
+    width: 100%;
+    height: 150px;
+}
+
+.card-login {
+    padding: 30px 0 0 0;
+    width: 350px;
+    margin: 100px auto;
+}
+
+.card-perfil {
+    padding: 30px 0 0 0;
+    width: 500px;
+    margin: 50px auto;
+
+}
+
+
+/****************************/
+
+.formulario {
+    padding-bottom: 35px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    border-radius: 10px;
+    min-width: 350px;
+}
+
+/*** ELOS */
+
+.bronze {
+    background-color: #cd7f32!important;
+}
+
+.silver {
+    background-color: #C0C0C0!important;
+}
+
+.gold {
+    background-color: #FFD700!important;
+}
+
+.platinum {
+    background-color: #20b2aa!important;
+}
+
+.diamond {
+    background-color: #CF9FFF!important;
+}
+
+.diamond-lol {
+    background-color: #0096FF!important;
+}
+
+.ascendant {
+    background-color: #50C878!important;
+}
+
+.immortal {
+    background-color: #DE3163!important;
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0.6)!important;
+    color: #fff;
+}
+
+.iri {
+    background-color: #FF2400!important;
+    color: #fff;
+}
+
+
+.container .row .col-md-6 .card .imagem-card {
+    height: 300px;
+}
+
+
+/***************************************/
+.dropdown-menu .dropdown-item:hover {
+    background-color:#000;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .dropdown .dropdown-toggle {
+        margin-top: 10px;
+    }
+}
+
+.linha-preta {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    height: 2px;
+    background-color: #000;
+}
+
+/***************************************/
+
+.preco {
+    font-weight: 500;
+    font-size: 1.2em;
+    font-family: 'monofonto';
+    margin-top: 20px;
+}
+
+.vava {
+    font-family: 'Valorant';
+}
+
+.elojobform {
+    border-radius: 4px;
+}
+
+
+/***************************/
+/* CARD SIZES */
+@media (min-width: 768px) and (max-width: 991px){
+    .jogue-comigo, .elo-job {
+        min-height: 330px;
+    }
+
+    .botao-abaixo {
+        margin-top: 120px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1119px){
+    .jogue-comigo, .elo-job {
+        min-height: 250px;
+    }
+
+    .botao-abaixo {
+        margin-top: 70px;
+    }
+}
+
+@media (min-width: 1120px){
+    .jogue-comigo, .elo-job {
+        min-height: 220px;
+    }
+
+    .botao-abaixo {
+        margin-top: 50px;
+    }
+}

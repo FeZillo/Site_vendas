@@ -1,0 +1,80 @@
+
+.valorant-card {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/reyna.jpg) no-repeat top center;
+    background-color: black;
+    /* width: 200px;
+    height: 300px; */
+    background-size: cover;
+}
+
+.valorant-card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/reyna.jpg) no-repeat top center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.league-card {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/katarina.jpg) no-repeat top center;
+    /* width: 200px;
+    height: 300px; */
+    background-size: cover;
+}
+
+.league-card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/katarina.jpg) no-repeat top center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.cs-card {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/cs.png) no-repeat center center;
+    /* width: 200px;
+    height: 300px; */
+    background-size: cover;
+}
+
+.cs-card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cs.png) no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.dbd-card {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/dbd.jpg) no-repeat top center;
+    /* width: 200px;
+    height: 300px; */
+    background-size: cover;
+}
+
+.dbd-card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/dbd.jpg) no-repeat top center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.tft-card {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tft.jpg) no-repeat top center;
+        background-color: black;
+        /* width: 200px;
+        height: 300px; */
+        background-size: cover;
+    }
+
+.tft-card:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tft.jpg) no-repeat top center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.text {
+    color: #fff;
+    background:rgba(0, 0, 0, 0.8);
+    margin-top: 250px;
+    text-align: center;
+    font-size: 1.5em;
+    height: 50px;
+    font-family: 'Monofonto';
+
+}
+
